@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (1.3.3)
+  - HexColors (2.2.1)
+  - RestKit (0.20.3):
+    - RestKit/Core
+  - RestKit/Core (0.20.3):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.20.3)
+  - RestKit/Network (0.20.3):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.20.3)
+  - RestKit/Support (0.20.3):
+    - TransitionKit (= 1.1.1)
+  - SOCKit (1.1)
+  - TransitionKit (1.1.1)
+  - TSMessages (0.9.4):
+    - HexColors
+  - ViewDeck (2.2.11)
+  - WYPopoverController (0.1.7)
+
+DEPENDENCIES:
+  - RestKit (~> 0.20.0)
+  - TSMessages
+  - ViewDeck (~> 2.2.11)
+  - WYPopoverController (~> 0.1.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
+  HexColors: 3a68db077cd6572a8f7d4aa1add284dd2436a934
+  RestKit: 1f181c180105a92f11ec4f6cd7de37625e516d83
+  SOCKit: 2f3bc4d07910de12dcc202815e07db68a3802581
+  TransitionKit: d0e3344aac92991395d4c2e72d9c5a8ceeb12910
+  TSMessages: 5ab92604b02e49a755d2cc2baf114d2248a90977
+  ViewDeck: b5eddc8559b0e47259ab7addbf2de6768061f139
+  WYPopoverController: 729963b2405c7763c99393a254021de9bffde763
+
+COCOAPODS: 0.28.0
